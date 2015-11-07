@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadPool", "ThreadPool\ThreadPool.vcxproj", "{A797D14C-DD4E-47A5-B356-A5CE96AB46D1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StrategyDP", "StrategyDP\StrategyDP.vcxproj", "{4F0F8DCC-80BA-4297-AD3C-B8150DCC1B1B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestSemaphore", "TestSemaphore\TestSemaphore.vcxproj", "{93109024-FEF2-49ED-9E58-F2B49D8BAC1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +17,14 @@ Global
 		{A797D14C-DD4E-47A5-B356-A5CE96AB46D1}.Debug|Win32.Build.0 = Debug|Win32
 		{A797D14C-DD4E-47A5-B356-A5CE96AB46D1}.Release|Win32.ActiveCfg = Release|Win32
 		{A797D14C-DD4E-47A5-B356-A5CE96AB46D1}.Release|Win32.Build.0 = Release|Win32
+		{4F0F8DCC-80BA-4297-AD3C-B8150DCC1B1B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4F0F8DCC-80BA-4297-AD3C-B8150DCC1B1B}.Debug|Win32.Build.0 = Debug|Win32
+		{4F0F8DCC-80BA-4297-AD3C-B8150DCC1B1B}.Release|Win32.ActiveCfg = Release|Win32
+		{4F0F8DCC-80BA-4297-AD3C-B8150DCC1B1B}.Release|Win32.Build.0 = Release|Win32
+		{93109024-FEF2-49ED-9E58-F2B49D8BAC1C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{93109024-FEF2-49ED-9E58-F2B49D8BAC1C}.Debug|Win32.Build.0 = Debug|Win32
+		{93109024-FEF2-49ED-9E58-F2B49D8BAC1C}.Release|Win32.ActiveCfg = Release|Win32
+		{93109024-FEF2-49ED-9E58-F2B49D8BAC1C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
