@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include "glog/logging.h" 
 #include "ThreadPool.h"
 
 #define TEST_FUNC
@@ -27,8 +28,14 @@ public:
 	}
 };
 
-int main()
+int main(int argc, char *argv[])
 {
+	google::InitGoogleLogging(*argv);
+	google::SetLogDestination(google::INFO,"C://"); 
+
+	char str[20] = "hello log!";    
+    LOG(INFO) << "Found " << google::COUNTER <<endl; 
+
 	ThreadPool *thread_pool_ptr = new ThreadPool(4);
 	if (NULL == thread_pool_ptr)
 		return 0;
