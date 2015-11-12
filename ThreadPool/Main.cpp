@@ -30,8 +30,8 @@ public:
 
 int main(int argc, char *argv[])
 {
-	google::InitGoogleLogging(*argv);
-	google::SetLogDestination(google::INFO,"C://"); 
+	google::InitGoogleLogging(argv[0]);
+	google::SetLogDestination(google::INFO,"./log"); 
 
 	char str[20] = "hello log!";    
     LOG(INFO) << "Found " << google::COUNTER <<endl; 
